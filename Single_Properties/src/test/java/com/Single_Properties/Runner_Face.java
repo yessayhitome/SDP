@@ -29,6 +29,7 @@ public class Runner_Face {
 		
 		WebElement log = driver.findElement(By.xpath("//button[@name='login']"));
 		log.click();
+		System.out.println("you can change it");
 		
 	}
 	
